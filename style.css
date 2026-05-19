@@ -3035,5 +3035,22 @@ figure {
         display: flex;
         margin-left: -20px;
         gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .fotosCima  {
+        display: flex;
+        flex-direction: column;
+        /* margin-left: 300px; */
+    }
+    .fotosBaixo {
+        display: flex;
+        flex-direction: column;
+    }
+    .ft1 ,.ft3 {
+        margin-left: 300px;
+    }
+    .ft2, .ft4 {
+        margin-left: 10px;
     }
  }
